@@ -1,7 +1,0 @@
-node_modules/
-.idea/
-.nyc_output/
-*.DS_Store
-build
-coverage/
-package-lock.json
