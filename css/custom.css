@@ -1,0 +1,435 @@
+/* your styles go here */
+.pro{
+	margin-left: 5%;
+}
+
+
+.panel-heading {
+    padding: 15px 10px 15px 10px;
+    border-bottom: 0px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.panel-default > .panel-heading {
+    color: #333;
+    background-color: #f5f6f8;
+    border-color: none!important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #a9b1bc!important;
+    border-color: #a9b1bc!important;
+}
+
+.btn-primary:hover {
+    background-color: #969ca5!important;
+}
+
+.profile-content h3{
+    margin:15px 0 10px 0!important;
+	}
+
+.stats {
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    display: table;
+    }
+
+.stats .statis {
+    display: table-cell;    
+    width: 25%;
+    vertical-align: top;
+    }
+
+.ibox-content {
+	background-color: #FFFFFF;
+	color: inherit;
+	padding: 0px 20px 20px 20px;
+	}
+
+.feed-activity-list .feed-element {
+	border-bottom: 1px solid #E7EAEC;
+	}
+
+.feed-element {
+	padding: 15px 0 15px 0;
+	}
+
+.feed-element img.img-circle, .dropdown-messages-box img.img-circle {
+	width: 38px;
+	height: 38px;
+	}
+
+.feed-element > .pull-left {
+	margin-right: 10px;
+	}
+
+.feed-element .well {
+	border: 1px solid #E7EAEC;
+	box-shadow: none;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	padding: 10px 20px;
+	font-size: 11px;
+	line-height: 16px;
+	}
+
+.img-circle {
+	border-radius: 50%;
+	}
+
+.text-navy {
+	color: #1AB394;
+	}
+
+.feed-element .actions {
+	margin-top: 10px;
+	}
+
+.feed-photo {
+	height: 180px;
+	border-radius: 4px;
+	overflow: hidden;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	}
+
+.btn-white {
+	color: inherit;
+	background: white;
+	border: 1px solid #E7EAEC;
+	}
+
+.btn {
+	border-radius: 3px;
+	}
+
+.btn-cprimary {
+	background-color: #f5f6f8;
+	border-color: #f5f6f8;
+	color: #333;
+	}
+
+.btn-danger {
+	background-color: #ef5352;
+	border-color: #ef5352;
+	color: #FFFFFF;
+	}
+
+.btn {
+	border-radius: 3px;	
+	}
+
+@media(min-width: 768px) and (max-width: 991px) {
+		.feed-photo {
+			width: 100%;
+			height: 350px!important;
+			border-radius: 4px;
+			overflow: hidden;
+			margin-right: 10px;
+			margin-bottom: 10px;
+			}
+
+		.btn-primary{
+			margin: 15px auto;
+			}
+}
+
+@media(min-width: 480px) and (max-width: 767px) {
+		.feed-photo {
+			width: 100%;
+			height: 300px!important;
+			border-radius: 4px;
+			overflow: hidden;
+			margin-right: 10px;
+			margin-bottom: 10px;
+			}
+		
+		.btn-primary{
+			margin: 15px auto;
+			}
+}
+
+@media(max-width:480px) { 
+		.feed-photo {
+		width: 100%;
+		border-radius: 4px;
+		overflow: hidden;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		}
+				.btn-primary{
+			margin: 15px auto;
+			}
+
+}
+
+/* formatting */
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.button {
+	display: block;
+	border-radius: 4px;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	background-color: #0071fc;
+	padding: .5em
+}
+
+.main {
+	padding: 1.5em 3em 1.5em 1.5em;
+}
+.sidebar {
+	padding: 2em 1.5em;
+	background-color: #333;
+}
+.large-photo {
+	height: 0;
+	padding-top: 61.9%;
+	background-color: #333;
+	margin-bottom: 1em;
+}
+@media (min-width:43.75em) {
+
+	/* responsive layout */
+	.candy-wrapper {
+		max-width: 60em;
+		margin: 0 auto;
+		position: relative;
+	}
+	.main {
+		display: inline-block;
+		width: 75%;
+		vertical-align: top;
+	}
+	.sidebar {
+		display: inline-block;
+		width: 25%;
+		vertical-align: top;
+	}
+
+	/* loaded fixed-sticky polyfill
+	https://github.com/filamentgroup/fixed-sticky */
+	.fixedsticky {
+		top: 0;
+	}
+
+	#agenda h4 {
+  color: #aaa;
+  font-size: 12px;
+  margin: 0;
+  text-transform: uppercase;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 4px;
+  display: inline-block;
+}
+#agenda ul {
+  margin-bottom: 20px;
+}
+#agenda .task-list .project-name {
+  font-size: 90%;
+  padding: 0 10px;
+}
+#agenda .no-tasks {
+  text-align: center;
+  font-style: italic;
+  padding: 0;
+}
+#agenda .no-tasks:hover {
+  background: none;
+  cursor: default;
+}
+#agenda .has-tasks .no-tasks {
+  display: none;
+}
+#agenda .drop-hover {
+  background: rgba(238, 240, 245, 0.2);
+  background: rgba(193, 237, 245, 0.2);
+  outline: dashed 1px #eef0f5;
+}
+#agenda .sort-handle,
+#agenda .is-task-completed {
+  display: none;
+}
+#agenda .status-indicators {
+  left: -10px;
+}
+#agenda .task-details {
+  color: #222;
+  padding-left: 10px;
+}
+#agenda .task-due-date {
+  margin-right: 0;
+  font-weight: normal;
+  color: #AFBDC6;
+}
+#agenda .task-assigned {
+  width: 105px;
+  right: 94px;
+}
+#agenda .task-status {
+  width: 90px;
+  right: 199px;
+  position: absolute;
+  top: 0;
+}
+#agenda .task-status span {
+  border-radius: 3px;
+  display: block;
+  height: 22px;
+  line-height: 22px;
+  position: relative;
+  top: 13px;
+  padding: 0 10px;
+  text-align: center;
+  font-size: 12px;
+}
+#agenda .overdue .task-status span {
+  background: #FC6E63;
+  color: #fff;
+}
+#agenda .at-risk .task-status span {
+  background: #FEC485;
+  color: #fff;
+}
+#agenda .on-schedule .task-status {
+  display: none;
+}
+#agenda .task-list li {
+  padding-left: 0px;
+}
+#agenda .task-list li:hover .task-due-date {
+  display: block;
+}
+#agenda .task-list li:before {
+  content: '-';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #aaa;
+}
+#agenda .dashboard-calendar {
+  width: 350px;
+}
+#agenda .dashboard-calendar .fc-day-number {
+  font-size: 14px;
+}
+#agenda .dashboard-calendar .fc-scroller {
+  overflow: hidden;
+}
+#agenda .marker {
+  display: none !important;
+}
+.open-projects {
+  max-width: 350px;
+}
+.open-projects h4 {
+  margin-bottom: 10px !important;
+  margin-top: 20px !important;
+}
+.open-projects li {
+  list-style: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  position: relative;
+}
+.open-projects li:hover {
+  background: #fffbea;
+}
+.open-projects .project-name {
+  color: #111;
+  padding-left: 18px;
+  position: relative;
+  padding-right: 100px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.open-projects .project-name:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 0;
+  height: 12px;
+  width: 12px;
+  border: 2px solid #6DCADB;
+  border-radius: 50%;
+}
+.open-projects .overdue .project-name:before,
+.open-projects .behind-schedule .project-name:before {
+  border: 2px solid #FC6E63;
+}
+.open-projects .at-risk .project-name:before {
+  border: 2px solid #FEC485;
+}
+.open-projects .project-due-date {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.open-projects .project-client {
+  color: #888;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+#agenda-activity {
+  max-width: 800px;
+  margin: 0 auto;
+}
+#agenda-activity .activity-content {
+  padding-right: 100px;
+}
+#agenda-activity .activity-timestamp {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.agenda-tab {
+  display: none;
+}
+.agenda-tab.showing {
+  display: block;
+}
+
+.project{
+	border: 1px solid;
+    padding: 4px 7px;
+    background: #eee;
+    border-radius: 6px;
+}
+
+.schedule{
+	text-align: center;
+    padding: 10px 39px 10px 32px;
+    border: 1px solid #eee;
+    margin-bottom: 50px;
+}
+
+.schedule h4{
+	font-size: 16px;
+}
+.sample{
+	text-align: left;
+	padding-left: 25px;
+}
+
+.sample h4{
+	font-weight: 100;
+}
+.sample-1{
+	margin-bottom: 50px;
+}
